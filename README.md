@@ -12,6 +12,8 @@ Random Forests performed better than LGBM and XGBoost, maybe because of the belo
 
 The model tuning in Random Forest is much easier than in case of XGBoost. In RF we have two main parameters: number of features to be selected at each node and number of decision trees. RF are harder to overfit than XGBoost. I did not try tuning for XGBoost as it is extremely compute intensive and time consuming.
 
+It is generally the case that a well-tuned GBM can work better than a RF. However, the GridSearchCV recommendation was to also use a square root max feature parameter, which worked well in the case of random forests!
+
 
 # Approach to Solve - Rishabh
 
