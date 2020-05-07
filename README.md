@@ -68,7 +68,7 @@ Since random forests were performing well, we tried to tune the hyper-parameters
 6) [Applying Tuned Params to Predict Test Set]
 
 The tuned params which were the output of the GridSearchCV are now used to predict for the test set. The model now achieves 
-**79.5% accuracy.
+**79.5% accuracy**
 
 
 
